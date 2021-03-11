@@ -12,7 +12,9 @@ dependencies:
   build: ^1.5.2
   source_gen: ">=0.9.10+1 <2.0.0"
   hive: 
-    path: ../hive
+    git:
+      url: https://github.com/Christian-Martensson/hive.git
+      path: hive
   analyzer: ">=0.40.0 <2.0.0"
 
 dev_dependencies:
